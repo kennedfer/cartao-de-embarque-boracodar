@@ -1,0 +1,78 @@
+:root {
+  --dot-size: 30px;
+  --half-dot-size: -15px;
+}
+
+.app {
+  scale: 0.8;
+}
+
+.card {
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  max-width: 350px;
+
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.plane {
+  position: absolute;
+  font-size: 150%;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.dot {
+  position: absolute;
+  z-index: 2;
+  background-color: var(--primary-color);
+
+  border-radius: 20px;
+
+  width: var(--dot-size);
+  height: var(--dot-size);
+
+  bottom: var(--half-dot-size);
+}
+
+.d-left {
+  left: var(--half-dot-size);
+
+  -webkit-box-shadow: inset -7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset -7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.d-right {
+  right: var(--half-dot-size);
+
+  -webkit-box-shadow: inset 7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 7px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dotted-border {
+  border-width: 1px;
+  border-style: dashed hidden;
+}
+
+.fix-scale {
+  scale: 0.8;
+}
+
+.hour {
+  border-radius: 7px;
+  font-size: 120%;
+  width: 70%;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.text-decoration {
+  font-size: 80%;
+}

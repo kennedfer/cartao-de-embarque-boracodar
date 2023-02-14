@@ -1,0 +1,99 @@
+.t-bold {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.c-black {
+  color: #232323;
+}
+
+.c-white {
+  color: white;
+}
+
+.ds-flex {
+  display: flex;
+}
+
+.f-collum {
+  flex-direction: column;
+}
+
+.ds-grid {
+  display: grid;
+}
+
+.g-3 {
+  gap: 3px;
+}
+
+.g-10 {
+  gap: 10px;
+}
+
+.g-20 {
+  gap: 20px;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.cyan {
+  background-color: cyan;
+}
+.red {
+  background-color: red;
+}
+
+.ta-rigth {
+  text-align: right;
+}
+
+.ts-larger {
+  font-size: 325%;
+}
+
+.ts-large {
+  font-size: 125%;
+}
+
+.ts-large-2x {
+  font-size: 150%;
+}
+
+.al-right {
+  align-items: flex-end;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.qrcode {
+  max-width: 100%;
+}
+
+.pi-center {
+  place-items: center;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mw-80 {
+  max-width: 80%;
+}
+
+.p-relative {
+  position: relative;
+}

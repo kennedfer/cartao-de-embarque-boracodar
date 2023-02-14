@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #6c32c7;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  color: rgb(111, 111, 111);
+
+  font-size: 90%;
+  font-family: "Rubik", sans-serif;
+
+  background-color: var(--primary-color);
+}
