@@ -12,3 +12,13 @@ body {
 
   background-color: var(--primary-color);
 }
+
+::selection {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+::-moz-selection {
+  color: white;
+  background-color: var(--primary-color);
+}
